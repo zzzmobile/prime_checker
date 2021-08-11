@@ -1,10 +1,12 @@
 # Skill Assessment
 
-#####Prerequisties
+##### Prerequisties
 
 This project expects following tools installed on the system.
 
 * Ruby 2.7.3
+* Node 12.22.4
+* bundler 2.2.25
 
 #### 1. Check out the repository
 #### 2. Install dependencies
@@ -24,3 +26,9 @@ bundle exec rails s
 ```
 
 And now you can make POST request to the URL http://localhost:3000/primes
+
+##### Unit test
+Rspec
+
+##### Deployment
+Mina
