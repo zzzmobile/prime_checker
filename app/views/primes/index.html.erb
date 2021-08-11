@@ -1,0 +1,7 @@
+<h1>Primes Checker</h1>
+<%= form_tag("/primes", :method => "post") do %>
+    <%= number_field_tag(:number, value = 1, options = {min: 1, max: 65536}) %>
+    <%= submit_tag("Check") %>
+<% end %>
+<br/>
+<%= flash[:notice] %>
